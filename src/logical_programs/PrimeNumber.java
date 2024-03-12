@@ -25,6 +25,7 @@ public class PrimeNumber {
 			if(result==0)
 			{
 				counter++;
+				
 			}
 
 		}

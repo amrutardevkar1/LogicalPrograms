@@ -10,6 +10,8 @@ public class PrograToGenerateRandomNo {
 		int n = r.nextInt();
 		System.out.println(n);
 		
+		
+		
 
 	}
 

@@ -11,8 +11,8 @@ public class RemoveDuplicatesFromString {
 		String withDuplicates= "aabcdefffGGHHtcvvszxeuiklsmnopqadDV";
 		System.out.println("String with duplicates: " + withDuplicates);
 		
-		StringBuilder withoutDuplicates = new StringBuilder();
-		
+	//	StringBuilder withoutDuplicates = new StringBuilder();
+		String wd ="";
 		char [] letters = withDuplicates.toCharArray();
 		
 		Set set = new HashSet();
@@ -22,12 +22,13 @@ public class RemoveDuplicatesFromString {
 			if(!set.contains(letter))
 			{
 				set.add(letter);
-				withoutDuplicates.append(letter);
+				//withoutDuplicates.append(letter);
+				wd= wd+letter;
 			}
 			
 		}
 		
-		System.out.println("String after removing duplicates: " + withoutDuplicates);
+		System.out.println("String after removing duplicates: " + wd);
 	}
 
 }

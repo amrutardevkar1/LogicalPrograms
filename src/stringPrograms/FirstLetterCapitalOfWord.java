@@ -5,6 +5,7 @@ public class FirstLetterCapitalOfWord {
 	public static void main(String[] args) {
 		
 		String s = "My name is Amruta";
+		
 		System.out.println("Original string is: " + s);
 		String[] words =  s.split("");
 		

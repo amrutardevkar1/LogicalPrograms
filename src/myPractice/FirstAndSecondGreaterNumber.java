@@ -4,7 +4,7 @@ public class FirstAndSecondGreaterNumber {
 	
 	public static void main(String[] args) {
 		
-		int [] a= {1,2,5,6,7,4,3};
+		int [] a= {1,2,5,6,7,4,3,11,9,8};
 		int temp1=a[0];
 		int temp2=0;
 		for(int i=1; i<a.length; i++)

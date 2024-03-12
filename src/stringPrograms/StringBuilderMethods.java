@@ -17,12 +17,13 @@ public class StringBuilderMethods {
 		System.out.println();
 		
 		StringBuilder s2 = new StringBuilder("Amruta");
-		s2.replace(5,6, "Devkar");
+		
+		s2.replace(3,6, "Devkar");
 		System.out.println("Replace method: " + s2);
 		System.out.println();
 		
 		StringBuilder s3 = new StringBuilder("Amruta");
-		s3.delete(4,5);
+		s3.delete(3,5);
 		System.out.println("Delete Method: " + s3);
 		System.out.println();
 		
