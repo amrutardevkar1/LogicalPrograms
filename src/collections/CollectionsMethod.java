@@ -28,8 +28,8 @@ public class CollectionsMethod {
 		System.out.println(num);
 		Collections.reverseOrder();
 		System.out.println(num);
-		Collections.emptySet();
-		System.out.println(num);
+		List<String> name1 =Collections.emptyList();
+		System.out.println(name1);
 		
 		
 		
@@ -50,10 +50,11 @@ public class CollectionsMethod {
 	    System.out.println(name);
 	    Collections.fill(name, "amu");
 	    System.out.println(name);
-	    Collections.replaceAll(name, "amu", "gau");
+	    Collections.replaceAll(name, "amu", "Amruta");
 	    System.out.println(name);
 	    
 
 	}
 
 }
+

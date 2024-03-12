@@ -6,10 +6,11 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Enter any number");
+		//System.out.println("Enter any number");
 		
-		Scanner scan = new Scanner(System.in);
-		int number = scan.nextInt();
+	//	Scanner scan = new Scanner(System.in);
+	//	int number = scan.nextInt();
+		int number = 123;
 		
 		int remainder=0;
 		int armstrong =0 ;
@@ -48,7 +49,7 @@ public class ArmstrongNumber {
 			System.out.println("Number is not armstrong number");
 		}
 		
-		scan.close();
+		//scan.close();
 	}
 	
 }
