@@ -8,7 +8,7 @@ public class FactorialNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Integer [] arr = {1,2,3,4,5};
+		Integer [] arr = {1,2,3};
 		List<Integer> list = Arrays.asList(arr);
 		list.stream().map((n) -> {
 			
