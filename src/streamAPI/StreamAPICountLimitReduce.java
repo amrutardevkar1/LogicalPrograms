@@ -27,6 +27,9 @@ public class StreamAPICountLimitReduce {
 		List<Integer> reverseOrder = numbers.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 		System.out.println(reverseOrder);
 	   
+		Optional <Integer> maximum =numbers.stream().max((v1 , v2)-> {Integer.compare(v1, v2); return v2;});
+		System.out.println(maximum);
+		
 		List<String> str = Arrays.asList("amruta" , "supriya","pratima","pratiksha","Amruta","Bhargavi","Anshuli","kajal");
 		List<String>  sortedStr = str.stream().sorted().collect(Collectors.toList());
 		System.out.println(sortedStr);
