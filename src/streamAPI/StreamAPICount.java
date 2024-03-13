@@ -11,7 +11,8 @@ public class StreamAPICount{
     List<Integer> listn = Arrays.asList(an);
     
     System.out.println(listn);
-    
+     long count1 = listn.stream().filter((n) ->  (n % 2)==0).count();
+    System.out.println("Count of numbers divisible by 2: " + count1);
     
     long count = listn.stream().filter((n) ->  (n % 3)==0).count();
     System.out.println("Count of numbers divisible by 3: " + count);
