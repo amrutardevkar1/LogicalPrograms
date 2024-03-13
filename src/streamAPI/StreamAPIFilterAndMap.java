@@ -27,8 +27,11 @@ public class StreamAPIFilterAndMap {
 		List<String> filteredList2 = listA.stream().filter(l -> l.isBlank()).collect(Collectors.toList());
 		System.out.println(filteredList2.size());
 		
-		
-		//convertt string to char array
+		List<Integer> ls = Arrays.asList(new Integer[]{10,54,8,94});
+	    Optional<Integer> max = ls.stream().max((z1,z2)-> {z1.compareTo(z2); return z2;});
+	    System.out.println(max);
+	    
+	    //convertt string to char array
 		String s1 ="asbyueckkcnbxakxoqceucgcnkcj";
 		char[] c1= s1.toCharArray();
 		

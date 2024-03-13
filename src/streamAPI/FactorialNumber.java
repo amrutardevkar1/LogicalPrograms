@@ -22,6 +22,7 @@ public class FactorialNumber {
 			                  return factor;
 	                        	} ).forEach(System.out::println);
 
+
 	
 	}
 
