@@ -29,6 +29,10 @@ public class StreamAPICount{
     long count5 = listn.stream().filter((n) ->  (n % 7)==0).count();
     System.out.println("Count of numbers divisible by 7: " + count5);
     
+    long count6 = listn.stream().filter((n) ->  (n % 8)==0).count();
+    System.out.println("Count of numbers divisible by 8: " + count6);
+
+    
     
   }
 }
