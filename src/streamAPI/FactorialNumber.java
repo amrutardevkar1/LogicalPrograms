@@ -12,6 +12,8 @@ public class FactorialNumber {
 		Integer [] arr = {1,2,3};
 		
 		List<Integer> list = Arrays.asList(arr);
+		
+		
 	
 	}
 
