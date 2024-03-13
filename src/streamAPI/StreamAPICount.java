@@ -7,7 +7,7 @@ public class StreamAPICount{
 
  public static void main(String[] args)
   {
-    Integer[] an ={1,2,3,4,5,6,7,8,9,10,11,12};
+    Integer[] an ={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18};
     List<Integer> listn = Arrays.asList(an);
     
     System.out.println(listn);
@@ -25,6 +25,9 @@ public class StreamAPICount{
     
     long count4 = listn.stream().filter((n) ->  (n % 6)==0).count();
     System.out.println("Count of numbers divisible by 6: " + count4);
+    
+    long count5 = listn.stream().filter((n) ->  (n % 7)==0).count();
+    System.out.println("Count of numbers divisible by 7: " + count5);
     
     
   }
