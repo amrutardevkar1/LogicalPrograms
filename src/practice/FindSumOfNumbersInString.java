@@ -10,6 +10,7 @@ public class FindSumOfNumbersInString {
 
 		
 		System.out.println(sumOfDigits("Amruta1221Deevkar#21"));
+		System.out.println(secondWay("Amruta1221Deevkar#21"));
       
 
 	}
