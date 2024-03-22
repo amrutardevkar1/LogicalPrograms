@@ -8,7 +8,7 @@ public class FindSumOfNumbersInString {
 		// TODO Auto-generated method stub
 		
 		    
-		
+		System.out.println(sumOfDigits("Amruta1221Deevkar#21"));
       
 	}
 
