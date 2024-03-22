@@ -5,7 +5,12 @@ public class FindSumOfNumbersInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	
+		
+		    
+<<<<<<< HEAD
+		
+		}
+=======
 
 		
 		System.out.println(sumOfDigits("Amruta1221Deevkar#21"));
