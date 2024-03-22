@@ -9,7 +9,6 @@ public class FindSumOfNumbersInString {
 		
 		    
 		
-        System.out.println(secondWay("Amruta1221Devkar#21"));
 	}
 
 	public static int sumOfDigits(String s)
