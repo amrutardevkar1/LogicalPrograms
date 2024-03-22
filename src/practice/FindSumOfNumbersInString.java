@@ -13,7 +13,7 @@ public class FindSumOfNumbersInString {
       
 
 	}
->>>>>>> refs/remotes/origin/master
+
 
 	public static int sumOfDigits(String s)
 	{
