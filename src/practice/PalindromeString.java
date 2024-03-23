@@ -4,7 +4,12 @@ public class PalindromeString {
 	
 	public static void main(String[] args) {
 		
-		StringBuilder s = new StringBuilder("I mom I");
+		plindromeFirst("I mom I");
+	}
+
+	public static void plindromeFirst(String s1)
+	{
+		StringBuilder s = new StringBuilder(s1);
 		System.out.println("Given string is: " + s);
 		StringBuilder reverse = s.reverse();
 		
@@ -19,5 +24,4 @@ public class PalindromeString {
 			System.out.println("Given string is not palindrome");
 		}
 	}
-
 }
