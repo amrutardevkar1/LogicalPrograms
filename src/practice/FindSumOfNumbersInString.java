@@ -16,7 +16,6 @@ public class FindSumOfNumbersInString {
 
 	}
 
-		
 
 
 	public static int sumOfDigits(String s)
