@@ -6,6 +6,11 @@ public class Class2 {
 		// TODO Auto-generated method stub
 		
         String s3="asdgsf";		
+
+		String s="Amruta";
+		String s2="GAu";
+
+
 	}
 
 }
