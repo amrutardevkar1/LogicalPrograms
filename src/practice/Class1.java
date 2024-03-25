@@ -10,5 +10,6 @@ public class Class1 {
 		String s4="new file is ready";
 		String s5 ="adsvggegff";
 		String s6 ="shdgeefd";
+		String s7="addueu";
 	}
 }
