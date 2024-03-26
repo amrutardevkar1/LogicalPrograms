@@ -5,8 +5,7 @@ public class FindSumOfNumbersInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		    
+	
 
 
 		
@@ -15,7 +14,6 @@ public class FindSumOfNumbersInString {
       
 
 	}
-
 
 
 	public static int sumOfDigits(String s)

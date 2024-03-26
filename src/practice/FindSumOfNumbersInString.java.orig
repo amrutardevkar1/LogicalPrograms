@@ -1,5 +1,4 @@
 package practice;
-
 import java.util.ArrayList;
 
 public class FindSumOfNumbersInString {
@@ -10,11 +9,16 @@ public class FindSumOfNumbersInString {
 		    
 <<<<<<< HEAD
 		
+		}
 =======
+
+		
 		System.out.println(sumOfDigits("Amruta1221Deevkar#21"));
+		System.out.println(secondWay("Amruta1221Deevkar#21"));
       
->>>>>>> bab5929c877c39c16b6b8a002bb983bc69cb0f7b
+
 	}
+>>>>>>> refs/remotes/origin/master
 
 	public static int sumOfDigits(String s)
 	{
@@ -56,5 +60,5 @@ public class FindSumOfNumbersInString {
 		return sum;
 	}
 	
-	
+
 }
